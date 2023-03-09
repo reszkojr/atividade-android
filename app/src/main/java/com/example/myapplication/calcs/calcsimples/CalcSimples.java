@@ -26,7 +26,7 @@ public class CalcSimples extends AppCompatActivity {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
 
-
+//
 
         btnReturn = findViewById(R.id.btnReturn);
         btnReturn.setOnClickListener(view -> {
